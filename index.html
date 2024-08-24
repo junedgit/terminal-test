@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Terminal</title>
+    <style>
+      body {
+        font-family: monospace;
+        background-color: #222;
+        color: #fff;
+        padding: 200px;
+      }
+      #output {
+        white-space: pre-wrap;
+        margin-bottom: 10px;
+      }
+      #commandInput {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="output"></div>
+    <input
+      type="text"
+      id="commandInput"
+      placeholder="Type a command and press Enter"
+    />
+    <script src="terminal.js"></script>
+  </body>
+</html>
